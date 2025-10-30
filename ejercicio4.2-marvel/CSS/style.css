@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    border-collapse: collapse;
+}
+
+
+body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:97% ;
+    padding-top: 5px;
+
+}
+
+
+header{
+    background-color: rgb(30, 29, 29);
+    text-align: center;
+    height: 70px;
+    border: 2px solid purple;
+}
+
+h2{
+padding-top: 20px;
+color: rgb(220, 219, 219);
+font-weight: bold;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-left: 30px;
+    gap: 15px;
+    margin-top: 20px;
+    
+}
+
+
+.grid-container div {
+    padding: 20px;
+    text-align: center;
+    border-radius: 7px;
+   
+}
+
+img {
+    height: 300px;
+    width: auto;
+    box-shadow: 7px 7px black;
+
+}
+
+.comic {
+    background-color: rgb(50, 50, 50)
+
+}
+
+p{
+color: rgb(236, 228, 228);
+text-align: left;
+padding-left: 50px;
+
+
+}
+
+
+ .titulo{
+    padding-top: 15px;
+    font-size: larger;
+ }
+
+
+ .autor{
+    font-size: x-small;
+ }
+
+ a{
+color: black;
+background-color: rgb(10, 204, 10);
+padding: 9px 15px;
+border-radius: 5px;
+box-shadow: 4px 4px black;
+text-decoration: none;
+position: relative;
+top:-25px;
+left:65px;
+}
+
+
+
