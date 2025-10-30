@@ -88,5 +88,10 @@ top:-25px;
 left:65px;
 }
 
-
+a:hover{
+color: rgb(255, 255, 255);
+background-color: orangered;
+font-weight: bold;
+font-style: italic;
+}
 
